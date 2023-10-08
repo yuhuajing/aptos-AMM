@@ -1,0 +1,16 @@
+[package]
+name = "myCoin"
+version = "0.0.0"
+
+[dependencies]
+AptosFramework = { local = "./aptos-move/framework/aptos-framework" }
+AptosToken = { local = "./aptos-move/framework/aptos-token" }
+AptosStdlib = { local = "./aptos-move/framework/aptos-stdlib" }
+DataStructure = { local = "./aptos-move/move-examples/data_structures" }
+
+[addresses]
+ClayCoin = "0x961abe79017867051be0a6e3aa2b7caa1304339516a8a8e7cc60ef7a1fd9fb71"
+admin="0x961abe79017867051be0a6e3aa2b7caa1304339516a8a8e7cc60ef7a1fd9fb71"
+staking ="0x8a9da9851d7f0c3ef6dc5d6b549d2e832ffc0109ee72607f57c30d78003e44a8"
+team="0x8a9da9851d7f0c3ef6dc5d6b549d2e832ffc0109ee72607f57c30d78003e44a8"
+aubrium="0x9d70be865987802127264da700201ca2bee329ca276d0660e0eb763db5be191a"
